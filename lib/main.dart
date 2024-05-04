@@ -137,58 +137,58 @@ class Home extends StatelessWidget {
               // ),
               //
               //
-              // Padding(
-              //   padding: const EdgeInsets.all(16.0),
-              //   child: TextField(
-              //     onChanged: (value){
-              //       print(value);
-              //     },
-              //     controller: TextEditingController(),
-              //     //enabled: false,
-              //     maxLength: 10,
-              //     style: TextStyle(
-              //       fontSize: 24,
-              //       color: Colors.orange
-              //     ),
-              //     decoration: InputDecoration(
-              //       hintText: 'Enter your email',
-              //       //label: Text('Email'),
-              //         labelText: 'Email',
-              //       hintStyle: TextStyle(
-              //         fontSize: 23,
-              //         fontWeight: FontWeight.w400,
-              //       ),
-              //
-              //       border: OutlineInputBorder(
-              //         borderRadius: BorderRadius.circular(10),
-              //         borderSide: BorderSide(width: 1)
-              //       ),
-              //
-              //       focusedBorder: OutlineInputBorder(
-              //           borderRadius: BorderRadius.circular(20),
-              //           borderSide: BorderSide(width: 5, color: Colors.pink)
-              //       ),
-              //
-              //       enabledBorder: OutlineInputBorder(
-              //         borderRadius: BorderRadius.circular(10),
-              //         borderSide: BorderSide(width: 2, color: Colors.black)
-              //       ),
-              //
-              //       disabledBorder: OutlineInputBorder(
-              //         borderRadius: BorderRadius.circular(20),
-              //           borderSide: BorderSide(width: 4, color: Colors.grey)
-              //       ),
-              //       fillColor: Colors.orange,
-              //       filled: true,
-              //
-              //       prefixIcon: Icon(Icons.add),
-              //       prefixIconColor: Colors.green,
-              //       suffixIcon: Icon(Icons.add),
-              //       suffixIconColor: Colors.green,
-              //
-              //     ),
-              //   ),
-              // ),
+              Padding(
+                padding: const EdgeInsets.all(16.0),
+                child: TextField(
+                  onChanged: (value){
+                    print(value);
+                  },
+                  controller: TextEditingController(),
+                  //enabled: false,
+                  maxLength: 10,
+                  style: TextStyle(
+                    fontSize: 24,
+                    color: Colors.orange
+                  ),
+                  decoration: InputDecoration(
+                    hintText: 'Enter your email',
+                    //label: Text('Email'),
+                      labelText: 'Email',
+                    hintStyle: TextStyle(
+                      fontSize: 23,
+                      fontWeight: FontWeight.w400,
+                    ),
+
+                    border: OutlineInputBorder(
+                      borderRadius: BorderRadius.circular(10),
+                      borderSide: BorderSide(width: 1)
+                    ),
+
+                    focusedBorder: OutlineInputBorder(
+                        borderRadius: BorderRadius.circular(20),
+                        borderSide: BorderSide(width: 5, color: Colors.pink)
+                    ),
+
+                    enabledBorder: OutlineInputBorder(
+                      borderRadius: BorderRadius.circular(10),
+                      borderSide: BorderSide(width: 2, color: Colors.black)
+                    ),
+
+                    disabledBorder: OutlineInputBorder(
+                      borderRadius: BorderRadius.circular(20),
+                        borderSide: BorderSide(width: 4, color: Colors.grey)
+                    ),
+                    fillColor: Colors.orange,
+                    filled: true,
+
+                    prefixIcon: Icon(Icons.add),
+                    prefixIconColor: Colors.green,
+                    suffixIcon: Icon(Icons.add),
+                    suffixIconColor: Colors.green,
+
+                  ),
+                ),
+              ),
 
 
 
@@ -203,7 +203,7 @@ class Home extends StatelessWidget {
                        //border: Border.all(width: 4, color: Colors.black)
                        border: Border(
                          top: BorderSide(width: 4, color: Colors.black),
-                         bottom: BorderSide(width: 2, color: Colors.deepOrange)
+                         bottom: BorderSide(width: 4, color: Colors.deepOrange)
                        ),
                        image: DecorationImage(
                            image: AssetImage('images/oskar.jpg'),
